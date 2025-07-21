@@ -1,5 +1,4 @@
 
-
 body {
     color: white;
     background: black;
@@ -18,19 +17,19 @@ h1 {
 .text-default {
   font-family: "Noto Sans TC", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-weight: 0;
   font-style: normal;
 }
 
-#overview {
-  background: url("../assets/reksio.jpg");
-  height: 750px;
-  width: 1050px;
-}
-
 .main-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   background: white;
-  padding: 32px 32px;
+  padding: 16px 16px;
+  font-size: 32px;
+  z-index: 1;
 }
 
 .main-header > div {
@@ -85,62 +84,6 @@ h1 {
   border: none;
 }
 
-#zones {
-  background-color: black;
-}
-
-.zones-header {
-  text-align: center;
-  font-size: 64px;
-}
-
-.zone {
-  background: saddlebrown;
-  text-align: center;
-  padding: 16px;
-  margin: 8px;
-  display: inline-block;
-  width: 30%;
-  vertical-align: middle;
-
-  font-size: 16px;
-}
-
-.zone-highlighted {
-  background: sandybrown;
-  color: black;
-}
-
-.zone-annotation {
-  background: lightgoldenrodyellow;
-  padding: 8px;
-  border-radius: 4px;
-  box-shadow: 2px 2px 2px 2px rgba(0,0,0, 0.5);
-  color: darkolivegreen;
-}
-
-.zone-title {
-  color: indianred;
-}
-
-.zone-subtitle {
-  color: blanchedalmond;
-}
-
-.zone-highlighted .zone-title {
-  color: brown;
-}
-
-.zone-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.zone-list li {
-  margin: 8px;
-}
-
 .btn {
   background: darkkhaki;
   color: white;
@@ -161,49 +104,11 @@ h1 {
   outline: none;
 }
 
-#below-zones {
-  font-size: 16px;
-  background: darkred;
-  margin-top: 64px;
-  padding: 16px;
-}
-
-#below-zones > .zones-header {
-  color: white;
-  margin: 32px;
-}
-
-.zone-features {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.zone-feature {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-}
-
-.zone-feature-description {
-  text-align: center;
-  font-weight: 0;
-}
-
-.zone-feature-img {
-  background: darkorange;
-  width: 128px;
-  height: 128px;
-  border: 2px solid orangered;
-  border-radius: 50%;
-  margin: auto;
-}
-
 .main-footer{
   text-decoration: none;
   padding: 32px;
   margin-top: 48px;
+  background: black;
 }
 
 .main-footer ul {
