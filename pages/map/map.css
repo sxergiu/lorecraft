@@ -1,5 +1,8 @@
 #overview {
-  background: url("../../assets/reksio.jpg");
+
+  background: linear-gradient(to right bottom, rgba(139, 69, 19, 0.5) 25%, transparent),
+              url("../../assets/reksio.jpg") left bottom 66%/cover no-repeat border-box;
+  filter: grayscale(20%);
   height: 750px;
   width: 100%
   padding: 10px;
@@ -17,7 +20,7 @@
 #overview h4 {
   position: absolute;
   top: 85%;
-  left: 85%;
+  left: 90%;
 }
 
 #zones {
@@ -113,4 +116,5 @@
   border: 2px solid orangered;
   border-radius: 50%;
   margin: auto;
+  padding: 40px;
 }

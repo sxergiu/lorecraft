@@ -40,6 +40,14 @@ h1 {
 .main-header-brand {
   color: saddlebrown;
   text-decoration: none;
+  display: block;
+  object-fit: cover;
+}
+
+.main-header-brand img {
+  height: 32px;
+  position: absolute;
+  bottom: 20px;
 }
 
 .main-nav {

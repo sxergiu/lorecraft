@@ -7,7 +7,7 @@
     <title>Lore</title>
     <link rel="shortcut icon" href="../../assets/SX-LOGO.ico">
     <link rel="stylesheet" href="../../shared/main.css">
-    <link rel="stylesheet" href="layers.css">
+    <link rel="stylesheet" href="characters.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -18,7 +18,6 @@
 
 <body>
 
-    <div class="background"></div>
     <header class="main-header">
 
         <div>
@@ -32,14 +31,14 @@
                 <li class="main-nav-item">
                     <a href="../journals/index.html"> Journals </a>
                 </li>
-                <li class="main-nav-item main-nav-item-cta">
-                    <a href="index.html"> Layers </a>
+                <li class="main-nav-item">
+                    <a href="../layers/index.html"> Layers </a>
                 </li>
                 <li class="main-nav-item">
                     <a href="../map/index.html"> Map </a>
                 </li>
-                <li class="main-nav-item">
-                    <a href="../characters/index.html"> Characters </a>
+                <li class="main-nav-item main-nav-item-cta">
+                    <a href="index.html"> Characters </a>
                 </li>
             </ul>
         </nav>
@@ -47,38 +46,39 @@
     </header>
 
     <main>
-        <section class="layer" id="abyssal">
-                <a href="#">
-                    <h1 class="layer-title">Our PLUS Plan</h1>
-                    <h2 class="layer-badge">
-                        Recommended
+        <div>
+            <div class="testimonial" id="customer-1">
+                <div class="testimonial__image-container">
+                    <img src="../../assets/manticore.png" alt="Mike Statham - Customer" class="testimonial__image">
+                </div>
+                <div class="testimonial__info">
+                    <h1 class="testimonial__name">Mike Statham</h1>
+                    <h2 class="testimonial__subtitle">Founder of
+                        <a href="tech-analysis.com">tech-analysis.com</a>
                     </h2>
-                    <h2 class="layer-subtitle">The most popular choice of our customers.</h2>
-                    <p class="layer-description">Benefit from increased storage and faster support to ensure that your mission-critical data and applications
-                        are always available!</p>
-                </a>
-        </section>
-        <section class="layer" id="origin">
-                <a href="#">
-                    <h1 class="layer-title">Our FREE Plan</h1>
-                    <h2 class="layer-subtitle">An extremely solid start into our hosting world.</h2>
-                    <p class="layer-description">Get started immediately at zero cost!</p>
-                </a>
-        </section>
-        <div class="clearfix"> </div>
-        <section class="layer" id="carnal">
-                <a href="#">
-                    <h1 class="layer-title">Our PREMIUM Plan</h1>
-                    <h2 class="layer-subtitle">All your enterprise needs. Instant support, guaranteed uptime. </h2>
-                    <p class="layer-description">The best solution for small to large enterprises. Because hosting shouldn't be in the way!</p>
-                </a>
-        </section>
-    </main>
+                    <p class="testimonial__text">uHost helped me realize my project with a highly constrained budget in like no time.</p>
+                </div>
+            </div>
+            <div class="testimonial" id="customer-2">
 
+                <div class="testimonial__info">
+                    <h1 class="testimonial__name">John Mellow</h1>
+                    <h2 class="testimonial__subtitle">Hosts his private videos on uHost.
+                    </h2>
+                    <p class="testimonial__text">I worked as a blogger and always looked for an integrated hosting and file storage solution. I found
+                        it in uHost!
+                    </p>
+                </div>
+                <div class="testimonial__image-container">
+                    <img src="../../assets/gargoyle.jpg" alt="John Mellow - Customer" class="testimonial__image">
+                </div>
+            </div>
+        </div>
+    </main>
     
     <footer class="main-footer">
         <nav>
-            <ul>
+            <ul class="main-footer">
                 <li>
                     <a href="#"> Support </a>
                 </li>
