@@ -1,14 +1,14 @@
 main {
-	padding-top: 32px;
-	font-size: 16px;
-	margin-top: 32px;
+	padding-top: 2rem;
+	font-size: 1rem;
+	margin-top: 2rem;
 }
 
 .background {
 	/* background: url('../../assets/reksio.jpg'); */
 	background-image: radial-gradient(circle farthest-side at top, white, saddlebrown, black);
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 10vh;
 	position: fixed;
 	z-index: -1;
 }
@@ -16,7 +16,7 @@ main {
 .layer {
 	position: relative;
 	width: 80%;
-	margin: 32px 0;
+	margin: 2rem 0;
 	border: 4px solid white;
 	border-left: none;
 }
@@ -31,17 +31,17 @@ main {
 	text-decoration: none;
 	color: inherit;
 	display: block;
-	padding: 32px;
+	padding: 2rem;
 }
 
 .layer-badge {
 	position: absolute;
 	top: 0;
 	right: 0;
-	margin: 20px;
+	margin: 1.2rem;
 	color: saddlebrown;
 	background: white;
-	padding: 8px;
+	padding: 0.5rem;
 	border-radius: 8px;
 	background: rgba(255, 255, 255, 0.95);
 }
@@ -51,10 +51,10 @@ main {
 }
 
 .layer-description {
-	padding: 16px;
+	padding: 1rem;
 	border: 1px solid lightsalmon;
 	color: lightsalmon;
-	font-size: 32px;
+	font-size: 2rem;
 }
 
 #abyssal {
